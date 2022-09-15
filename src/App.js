@@ -1,12 +1,18 @@
 import "./App.css";
+import AboutMePage from "./components/AboutMePage";
+import HomePage from "./components/HomePage";
+import WithSubnavigation from "./components/Navbar";
+import SkillsPage from "./components/SkillsPage";
+import TechStacksPage from "./components/TechStacksPage";
 
 function App() {
   return (
     <div className="App">
-      <h1>
-        Welcome! to my PortFolio made with{" "}
-        <img src="logo512.png" alt="img" width="40px" height="40px" />
-      </h1>
+      <WithSubnavigation />
+      <HomePage />
+      <AboutMePage />
+      <TechStacksPage />
+      <SkillsPage />
     </div>
   );
 }
