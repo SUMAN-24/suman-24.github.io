@@ -1,6 +1,5 @@
 import {
   Box,
-  Center,
   Divider,
   Heading,
   Link,

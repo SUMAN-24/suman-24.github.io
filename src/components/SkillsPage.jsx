@@ -1,30 +1,15 @@
 import {
-  AspectRatio,
   Box,
   Center,
   Divider,
   Heading,
-  HStack,
   Image,
-  Link,
   SimpleGrid,
   Stack,
   Text,
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import Bootstrap from "./techstacks/Bootstrap";
-import Chakra from "./techstacks/Chakra";
-import Css from "./techstacks/Css";
-import Git from "./techstacks/Git";
-import Html from "./techstacks/Html";
-import Javascript from "./techstacks/Javascript";
-import MaterialUi from "./techstacks/MaterialUi";
-import MongoDb from "./techstacks/MongoDb";
-import NodejsA from "./techstacks/NodejsA";
-import Npm from "./techstacks/Npm";
-import Reacts from "./techstacks/Reacts";
-import ReduxA from "./techstacks/ReduxA";
 
 const SkillsPage = () => {
   return (
