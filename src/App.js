@@ -4,6 +4,7 @@ import HomePage from "./components/HomePage";
 import WithSubnavigation from "./components/Navbar";
 import ProjectsPage from "./components/ProjectsPage";
 import SkillsPage from "./components/SkillsPage";
+import StatisticsPage from "./components/StatisticsPage";
 import TechStacksPage from "./components/TechStacksPage";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <TechStacksPage />
       <SkillsPage />
       <ProjectsPage />
+      <StatisticsPage />
     </div>
   );
 }
