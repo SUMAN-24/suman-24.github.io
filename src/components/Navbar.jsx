@@ -1,12 +1,9 @@
 import {
   Box,
-  Flex,
-  Text,
   IconButton,
   Button,
   Stack,
   useColorModeValue,
-  useBreakpointValue,
   useDisclosure,
   VStack,
   DrawerBody,
@@ -76,9 +73,8 @@ export default function WithSubnavigation() {
           </Box>
         </Box>
 
-        <Box>
+        <Box display={{ base: "none", sm: "none", md: "inline-flex" }}>
           <Button
-            display={{ base: "none", sm: "none", md: "inline-flex" }}
             fontSize={"md"}
             fontWeight={600}
             color={"white"}

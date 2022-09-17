@@ -18,6 +18,7 @@ const SkillsPage = () => {
         backgroundColor="rgb(236,237,239)"
         textAlign="center"
         width={{ base: "100%", sm: "100%", md: "100%" }}
+        height={{ base: "83rem", sm: "45rem", md: "26rem" }}
       >
         <Box mt="3rem">
           <Heading
@@ -52,7 +53,7 @@ const SkillsPage = () => {
             <Box border="4px solid teal">
               <VStack>
                 <Image
-                  src={require("../Images/Front End Development.gif")}
+                  src={require("../gifs/Front End Development.gif")}
                   alt="Front End Development"
                 />
                 <Text fontSize="md" fontFamily="body">
@@ -64,7 +65,7 @@ const SkillsPage = () => {
             <Box border="4px solid teal">
               <VStack>
                 <Image
-                  src={require("../Images/Backend Development.gif")}
+                  src={require("../gifs/Backend Development.gif")}
                   alt="Backend Development"
                 />
                 <Text fontSize="md" fontFamily="body">
@@ -76,7 +77,7 @@ const SkillsPage = () => {
             <Box border="4px solid teal">
               <VStack>
                 <Image
-                  src={require("../Images/Data Structures.gif")}
+                  src={require("../gifs/Data Structures.gif")}
                   alt="Data Structures and Algorithm"
                 />
                 <Text fontSize="md" fontFamily="body">
@@ -88,7 +89,7 @@ const SkillsPage = () => {
             <Box border="4px solid teal">
               <VStack>
                 <Image
-                  src={require("../Images/Communication.gif")}
+                  src={require("../gifs/Communication.gif")}
                   alt="Communication Skills"
                 />
                 <Text fontSize="md" fontFamily="body">
