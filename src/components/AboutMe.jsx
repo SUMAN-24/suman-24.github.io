@@ -10,7 +10,7 @@ const AboutMe = () => {
         cursor="pointer"
         _hover={{ bg: "none", color: "blue" }}
       >
-        AboutMe
+        About
       </Heading>
     </div>
   );

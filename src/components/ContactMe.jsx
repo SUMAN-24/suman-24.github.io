@@ -10,7 +10,7 @@ const ContactMe = () => {
         cursor="pointer"
         _hover={{ bg: "none", color: "blue" }}
       >
-        ContactMe
+        Contact
       </Heading>
     </div>
   );

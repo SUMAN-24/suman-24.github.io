@@ -33,8 +33,7 @@ const StatisticsPage = () => {
             ml="1.8rem"
           />
         </Box>
-
-        <HStack>
+        <HStack pt={8}>
           <Box
             border="4px solid teal"
             borderRadius="2rem"

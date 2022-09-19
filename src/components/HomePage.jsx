@@ -8,6 +8,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
+import Type from "./Type";
 
 const HomePage = () => {
   return (
@@ -31,45 +32,54 @@ const HomePage = () => {
           </Heading>
         </Box>
 
-        <Box pt="5rem" display="flex" mt="7rem" gap="6rem">
-          <Box ml="5rem" width="30%">
+        <Box pt="5rem" display="flex" mt="7rem" gap={35} w={950}>
+          <Box ml="5rem" width={450}>
             <Image
-              width="100%"
-              height="100%"
+              width={400}
+              height={400}
               borderRadius="8%"
               border="2px solid teal"
               src={require("../Images/SK theme.jpg")}
               alt="Suman"
             />
           </Box>
-          <Box pr="5rem" pt="4rem">
+          <Box pr="5rem" pt="4rem" width={810}>
             <Heading
               as="h2"
               fontFamily="sans-serif"
               fontSize="3xl"
               fontWeight="semibold"
               color="rgb(16,24,52)"
-              //noOfLines={[4, 5, 6]}
+              noOfLines={[4, 4, 4]}
             >
               <Text>⌛ 1200+,</Text>
               <Text> Hours of coding </Text>
-              <Text>Made me MERN Developer</Text>
+              <Text>Made me</Text>
+              <Type />
             </Heading>
             <br />
             <br />
-            <Button
-              size="md"
-              height="45px"
-              width="200px"
-              border="2px"
-              backgroundColor="white"
-              borderColor="rgb(25, 108, 255)"
-              color="rgb(25, 108, 255)"
-              _hover={{ bgColor: "rgb(25, 108, 255)", color: "white" }}
-              fontFamily="sans-serif"
+            <a
+              href={
+                "https://drive.google.com/file/d/19KpfKjphbpUxuXF44ul__PTkXaMzLwZW/view?usp=sharing"
+              }
+              target="_blank"
+              rel="noreferrer"
             >
-              Resume
-            </Button>
+              <Button
+                size="md"
+                height="45px"
+                width="200px"
+                border="2px"
+                backgroundColor="white"
+                borderColor="rgb(25, 108, 255)"
+                color="rgb(25, 108, 255)"
+                _hover={{ bgColor: "rgb(25, 108, 255)", color: "white" }}
+                fontFamily="sans-serif"
+              >
+                Resume
+              </Button>
+            </a>
           </Box>
         </Box>
       </VStack>

@@ -74,25 +74,32 @@ export default function WithSubnavigation() {
         </Box>
 
         <Box display={{ base: "none", sm: "none", md: "inline-flex" }}>
-          <Button
-            fontSize={"md"}
-            fontWeight={600}
-            color={"white"}
-            colorScheme="messenger"
-            variant="solid"
-            borderRadius={4}
-            href={"#"}
-            _hover={{
-              backgroundColor: "messenger.600",
-            }}
-            ml={300}
-            mr={4}
+          <a
+            href={
+              "https://drive.google.com/file/d/19KpfKjphbpUxuXF44ul__PTkXaMzLwZW/view?usp=sharing"
+            }
+            target="_blank"
+            rel="noreferrer"
           >
-            Resume
-            <span>
-              <DownloadIcon w={5} h={5} color="yellow" />
-            </span>
-          </Button>
+            <Button
+              fontSize={"md"}
+              fontWeight={600}
+              color={"white"}
+              colorScheme="messenger"
+              variant="solid"
+              borderRadius={4}
+              _hover={{
+                backgroundColor: "messenger.600",
+              }}
+              ml={300}
+              mr={4}
+            >
+              Resume
+              <span>
+                <DownloadIcon w={5} h={5} color="yellow" />
+              </span>
+            </Button>
+          </a>
         </Box>
         <Box ml={{ base: 40 }} display={{ base: "flex", md: "none" }}>
           <MobileNav />
