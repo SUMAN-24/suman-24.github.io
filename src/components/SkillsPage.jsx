@@ -20,7 +20,7 @@ const SkillsPage = () => {
         width={{ base: "100%", sm: "100%", md: "100%" }}
         height={{ base: "83rem", sm: "45rem", md: "26rem" }}
       >
-        <Box mt="3rem">
+        <Box mt="5rem">
           <Heading
             fontWeight="semibold"
             fontFamily="body"

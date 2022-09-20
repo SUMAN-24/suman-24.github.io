@@ -30,7 +30,7 @@ const TechStacksPage = () => {
         textAlign="center"
         height={{ base: "60rem", sm: "55rem", md: "45rem" }}
       >
-        <Box mt="3rem">
+        <Box mt="5rem">
           <Heading
             fontWeight="semibold"
             fontFamily="body"

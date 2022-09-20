@@ -55,7 +55,7 @@ export default function WithSubnavigation() {
           //flex={{ base: 1 }}
           display={{ base: "flex", sm: "start", md: "start" }}
           mt={2}
-          // ml={10}
+          ml={10}
           width={12}
           height={12}
           //alignItems={useBreakpointValue({ base: "left", md: "left" })}
@@ -72,7 +72,7 @@ export default function WithSubnavigation() {
           {/* </Box> */}
         </Box>
         <Box>
-          <Box display={{ base: "none", md: "center" }} ml="27rem">
+          <Box display={{ base: "none", sm: "none", md: "center" }} ml={380}>
             <DesktopNav />
           </Box>
         </Box>
@@ -105,7 +105,10 @@ export default function WithSubnavigation() {
             </Button>
           </a>
         </Box>
-        <Box ml={{ base: 40 }} display={{ base: "flex", md: "none" }}>
+        <Box
+          // ml={{ base: 20, sm: 40 }}
+          display={{ base: "flex", sm: "flex", md: "none" }}
+        >
           <MobileNav />
         </Box>
         {/* </Flex> */}
@@ -163,9 +166,30 @@ const DesktopNav = () => {
 const MobileNav = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const btnRef = useRef();
+  const [showNavList, setShowNavList] = React.useState(false);
+  const toggleNavList = (id) => {
+    var element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView();
+    }
+    setShowNavList(!showNavList);
+  };
+
   return (
-    <Stack bg={useColorModeValue("white", "gray.800")} p={4} ml={600}>
-      <Box display={{ base: "flex", md: "none" }}>
+    <Stack
+      style={{
+        position: "fixed",
+        top: 0,
+        backgroundColor: "rgb(255,255,255)",
+        zIndex: 2,
+      }}
+      w="100%"
+      overflow="hidden"
+      bg={useColorModeValue("white", "gray.800")}
+      p={4}
+      ml={600}
+    >
+      <Box display={{ base: "flex", sm: "flex", md: "none" }}>
         <IconButton
           aria-label="hamburger"
           icon={<HamburgerIcon />}
@@ -183,15 +207,15 @@ const MobileNav = () => {
           placement="right"
           onClose={onClose}
           finalFocusRef={btnRef}
-          size={{ base: "sm", sm: "md" }}
+          size={{ base: "sm", sm: "md", md: "none" }}
         >
-          <DrawerOverlay size="full" />
+          <DrawerOverlay />
           <DrawerContent
             style={{
               backgroundColor: "rgb(14,36,49)",
-              marginTop: "60px",
+              marginTop: "63px",
             }}
-            size="full"
+            maxHeight="-moz-fit-content"
           >
             <DrawerCloseButton color="white" />
 
@@ -203,26 +227,57 @@ const MobileNav = () => {
                   marginTop: "10px",
                   color: "white",
                 }}
-                size="full"
               >
                 <Box>
-                  <Box>
-                    <Home />
+                  <Box pb="1rem">
+                    <a href="#home" onClick={() => toggleNavList("#home")}>
+                      <Home />
+                    </a>
                   </Box>
-                  <Box mt="1rem">
-                    <AboutMe />
+                  <Box mt="1rem" pb="1rem">
+                    <a href="#about" onClick={() => toggleNavList("#about")}>
+                      <AboutMe />
+                    </a>
                   </Box>
-                  <Box mt="1rem">
-                    <Projects />
+                  <Box mt="1rem" pb="1rem">
+                    <a
+                      href="#projects"
+                      onClick={() => toggleNavList("#projects")}
+                    >
+                      <Projects />
+                    </a>
                   </Box>
-                  <Box mt="1rem">
-                    <Skills />
+                  <Box mt="1rem" pb="1rem">
+                    <a
+                      href="#techstacks"
+                      onClick={() => toggleNavList("#skills")}
+                    >
+                      <TechStacks />
+                    </a>
                   </Box>
-                  <Box mt="1rem">
-                    <Resume width="5rem" colorScheme="facebook" />
+                  <Box mt="1rem" pb="1rem">
+                    <a href="#skills" onClick={() => toggleNavList("#skills")}>
+                      <Skills />
+                    </a>
                   </Box>
-                  <Box mt="1rem">
-                    <ContactMe />
+                  <Box mt="1rem" pb="1rem">
+                    <a
+                      href={
+                        "https://drive.google.com/file/d/19KpfKjphbpUxuXF44ul__PTkXaMzLwZW/view?usp=sharing"
+                      }
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      <Resume width="5rem" colorScheme="facebook" />
+                    </a>
+                  </Box>
+                  <Box mt="1rem" pb="1rem">
+                    <a
+                      href="#contact"
+                      onClick={() => toggleNavList("#contact")}
+                    >
+                      <ContactMe />
+                    </a>
                   </Box>
                 </Box>
               </VStack>

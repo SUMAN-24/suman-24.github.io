@@ -5,7 +5,7 @@ const AboutMePage = () => {
   return (
     <Stack mt="7rem">
       <VStack backgroundColor="rgb(236,237,239)" height="30rem">
-        <Box mt="3rem">
+        <Box mt="5rem">
           <Heading
             fontWeight="semibold"
             fontFamily="body"
@@ -19,7 +19,7 @@ const AboutMePage = () => {
             fontWeight="bold"
             fontFamily="body"
             borderColor="blue"
-            borderWidth="2px"
+            borderWidth={[12, 4, 2.2]}
             ml="1.8rem"
           />
         </Box>

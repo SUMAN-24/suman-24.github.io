@@ -16,7 +16,7 @@ const ProjectsPage = () => {
   return (
     <Stack>
       <VStack>
-        <Box mt="3rem">
+        <Box mt="5rem">
           <Heading
             fontWeight="semibold"
             fontFamily="body"
