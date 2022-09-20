@@ -37,6 +37,7 @@ export default function WithSubnavigation() {
         zIndex: 1,
       }}
       w="100%"
+      overflow="hidden"
     >
       <HStack>
         {/* <Flex
@@ -54,7 +55,7 @@ export default function WithSubnavigation() {
           //flex={{ base: 1 }}
           display={{ base: "flex", sm: "start", md: "start" }}
           mt={2}
-          ml={10}
+          // ml={10}
           width={12}
           height={12}
           //alignItems={useBreakpointValue({ base: "left", md: "left" })}
@@ -63,7 +64,7 @@ export default function WithSubnavigation() {
           <Image
             //textAlign={useBreakpointValue({ base: "left", md: "left" })}
             // color={useColorModeValue("gray.800", "white")}
-            // ml={5}
+            ml={5}
             src={require("../Images/SK portfolio.gif")}
             width={12}
             height={12}
@@ -71,7 +72,7 @@ export default function WithSubnavigation() {
           {/* </Box> */}
         </Box>
         <Box>
-          <Box display={{ base: "none", md: "center" }} ml="25rem">
+          <Box display={{ base: "none", md: "center" }} ml="27rem">
             <DesktopNav />
           </Box>
         </Box>
@@ -94,7 +95,7 @@ export default function WithSubnavigation() {
               _hover={{
                 backgroundColor: "messenger.600",
               }}
-              ml={300}
+              ml={250}
               mr={4}
             >
               Resume
