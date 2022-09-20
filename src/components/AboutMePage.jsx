@@ -19,7 +19,7 @@ const AboutMePage = () => {
             fontWeight="bold"
             fontFamily="body"
             borderColor="blue"
-            borderWidth={[12, 4, 2.2]}
+            borderWidth="2px"
             ml="1.8rem"
           />
         </Box>
