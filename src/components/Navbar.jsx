@@ -28,6 +28,14 @@ import React from "react";
 import TechStacks from "./TechStacks";
 
 export default function WithSubnavigation() {
+  const [showNavList, setShowNavList] = React.useState(false);
+  const toggleNavList = (id) => {
+    var element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView();
+    }
+    setShowNavList(!showNavList);
+  };
   return (
     <Stack
       style={{
@@ -61,14 +69,16 @@ export default function WithSubnavigation() {
           //alignItems={useBreakpointValue({ base: "left", md: "left" })}
         >
           {/* <Box mt={2} ml={5}> */}
-          <Image
-            //textAlign={useBreakpointValue({ base: "left", md: "left" })}
-            // color={useColorModeValue("gray.800", "white")}
-            ml={5}
-            src={require("../Images/SK portfolio.gif")}
-            width={12}
-            height={12}
-          />
+          <a href="#home" onClick={() => toggleNavList("#home")}>
+            <Image
+              //textAlign={useBreakpointValue({ base: "left", md: "left" })}
+              // color={useColorModeValue("gray.800", "white")}
+              ml={5}
+              src={require("../Images/SK portfolio.gif")}
+              width={12}
+              height={12}
+            />
+          </a>
           {/* </Box> */}
         </Box>
         <Box>
