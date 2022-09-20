@@ -27,14 +27,14 @@ const HomePage = () => {
               I am{" "}
               <Tooltip
                 width="12rem"
-                height="3rem"
+                height="2rem"
                 hasArrow
                 placement="right"
                 label="Full Stack Web Developer"
-                bg="blackAlpha.900"
+                bg="messenger.600"
                 color="white"
                 textAlign="match-parent"
-                pt="0.5rem"
+                pt="0.3rem"
                 pl="0.7rem"
               >
                 <Button fontSize="2xl" colorScheme="facebook" color="orange">
@@ -69,7 +69,9 @@ const HomePage = () => {
               <Text>⌛ 1200+,</Text>
               <Text> Hours of coding </Text>
               <Text>Made me</Text>
-              <Type />
+              <Text bgClip="text" bgGradient="linear(to-l,#7928CA, #FF0080)">
+                <Type />
+              </Text>
             </Heading>
             <br />
             <br />

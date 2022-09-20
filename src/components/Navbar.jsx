@@ -14,6 +14,7 @@ import {
   Divider,
   HStack,
   Image,
+  Tooltip,
 } from "@chakra-ui/react";
 import { HamburgerIcon, DownloadIcon } from "@chakra-ui/icons";
 
@@ -69,16 +70,29 @@ export default function WithSubnavigation() {
           //alignItems={useBreakpointValue({ base: "left", md: "left" })}
         >
           {/* <Box mt={2} ml={5}> */}
-          <a href="#home" onClick={() => toggleNavList("#home")}>
-            <Image
-              //textAlign={useBreakpointValue({ base: "left", md: "left" })}
-              // color={useColorModeValue("gray.800", "white")}
-              ml={5}
-              src={require("../Images/SK portfolio.gif")}
-              width={12}
-              height={12}
-            />
-          </a>
+          <Tooltip
+            width="5rem"
+            height="2.4rem"
+            hasArrow
+            placement="right-end"
+            label="Portfolio"
+            bg="messenger.600"
+            color="whiteAlpha.900"
+            textAlign="match-parent"
+            pt="0.5rem"
+            pl="0.7rem"
+          >
+            <a href="#home" onClick={() => toggleNavList("#home")}>
+              <Image
+                //textAlign={useBreakpointValue({ base: "left", md: "left" })}
+                // color={useColorModeValue("gray.800", "white")}
+                ml={5}
+                src={require("../Images/SK portfolio.gif")}
+                width={12}
+                height={12}
+              />
+            </a>
+          </Tooltip>
           {/* </Box> */}
         </Box>
         <Box>
