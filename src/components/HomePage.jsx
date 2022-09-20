@@ -5,6 +5,7 @@ import {
   Image,
   Stack,
   Text,
+  Tooltip,
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
@@ -24,9 +25,22 @@ const HomePage = () => {
             <Text>"Hi👋,</Text>
             <Text>
               I am{" "}
-              <Button fontSize="2xl" colorScheme="facebook" color="orange">
-                Suman Kumar Khan
-              </Button>
+              <Tooltip
+                width="12rem"
+                height="3rem"
+                hasArrow
+                placement="right"
+                label="Full Stack Web Developer"
+                bg="blackAlpha.900"
+                color="white"
+                textAlign="match-parent"
+                pt="0.5rem"
+                pl="0.7rem"
+              >
+                <Button fontSize="2xl" colorScheme="facebook" color="orange">
+                  Suman Kumar Khan
+                </Button>
+              </Tooltip>
             </Text>
             <Text color="messenger.600">MERN Developer</Text>
           </Heading>
