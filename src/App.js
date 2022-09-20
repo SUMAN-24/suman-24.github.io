@@ -14,15 +14,29 @@ function App() {
   return (
     <div className="App">
       <WithSubnavigation />
-      <HomePage />
-      <AboutMePage />
-      <TechStacksPage />
-      <SkillsPage />
-      <ProjectsPage />
-      <StatisticsPage />
-      <Github />
+      <section id="#home">
+        <HomePage />
+      </section>
+      <section id="#about">
+        <AboutMePage />
+      </section>
+      <section id="techstacks">
+        <TechStacksPage />
+      </section>
+      <section id="skills">
+        <SkillsPage />
+      </section>
+      <section id="#projects">
+        <ProjectsPage />
+      </section>
+      <section>
+        <StatisticsPage />
+        <Github />
+      </section>
       <ScrollToTop />
-      <ContactMePage />
+      <section id="#contact">
+        <ContactMePage />
+      </section>
     </div>
   );
 }

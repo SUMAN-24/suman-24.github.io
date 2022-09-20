@@ -24,6 +24,8 @@ import Projects from "./Projects";
 import Home from "./Home";
 import { useRef } from "react";
 import Resume from "./Resume";
+import React from "react";
+import TechStacks from "./TechStacks";
 
 export default function WithSubnavigation() {
   return (
@@ -34,6 +36,7 @@ export default function WithSubnavigation() {
         backgroundColor: "rgb(255,255,255)",
         zIndex: 1,
       }}
+      w="100%"
     >
       <HStack>
         {/* <Flex
@@ -112,22 +115,45 @@ export default function WithSubnavigation() {
 }
 
 const DesktopNav = () => {
+  const [showNavList, setShowNavList] = React.useState(false);
+  const toggleNavList = (id) => {
+    var element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView();
+    }
+    setShowNavList(!showNavList);
+  };
   return (
     <HStack spacing={8}>
       <Box>
-        <Home />
+        <a href="#home" onClick={() => toggleNavList("#home")}>
+          <Home />
+        </a>
       </Box>
       <Box>
-        <AboutMe />
+        <a href="#about" onClick={() => toggleNavList("#about")}>
+          <AboutMe />
+        </a>
       </Box>
       <Box>
-        <Projects />
+        <a href="#projects" onClick={() => toggleNavList("#projects")}>
+          <Projects />
+        </a>
       </Box>
       <Box>
-        <Skills />
+        <a href="#techstacks" onClick={() => toggleNavList("#skills")}>
+          <TechStacks />
+        </a>
       </Box>
       <Box>
-        <ContactMe />
+        <a href="#skills" onClick={() => toggleNavList("#skills")}>
+          <Skills />
+        </a>
+      </Box>
+      <Box>
+        <a href="#contact" onClick={() => toggleNavList("#contact")}>
+          <ContactMe />
+        </a>
       </Box>
     </HStack>
   );
