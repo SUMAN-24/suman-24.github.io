@@ -39,16 +39,16 @@ export default function WithSubnavigation() {
   };
   return (
     <Stack
+      width={{ base: "100%", sm: "100%", md: "100%" }}
       style={{
         position: "sticky",
         top: 0,
         backgroundColor: "rgb(255,255,255)",
         zIndex: 1,
       }}
-
       // overflow="hidden"
     >
-      <HStack>
+      <HStack width={{ base: "100%", sm: "100%", md: "100%" }}>
         {/* <Flex
             bg={useColorModeValue("white", "gray.800")}
             color={useColorModeValue("gray.600", "white")}
@@ -96,7 +96,11 @@ export default function WithSubnavigation() {
           {/* </Box> */}
         </Box>
         <Box>
-          <Box display={{ base: "none", sm: "none", md: "center" }} ml={380}>
+          <Box
+            width={{ base: "100%", sm: "100%", md: "100%" }}
+            display={{ base: "none", sm: "none", md: "center" }}
+            ml={380}
+          >
             <DesktopNav />
           </Box>
         </Box>
@@ -132,6 +136,7 @@ export default function WithSubnavigation() {
         <Box
           // ml={{ base: 20, sm: 40 }}
           display={{ base: "flex", sm: "flex", md: "none" }}
+          width={{ base: "100%", sm: "100%", md: "100%" }}
         >
           <MobileNav />
         </Box>
@@ -152,7 +157,7 @@ const DesktopNav = () => {
     setShowNavList(!showNavList);
   };
   return (
-    <HStack spacing={8}>
+    <HStack width={{ base: "100%", sm: "100%", md: "100%" }} spacing={8}>
       <Box>
         <a href="#home" onClick={() => toggleNavList("#home")}>
           <Home />
@@ -201,6 +206,7 @@ const MobileNav = () => {
 
   return (
     <Stack
+      width={{ base: "100%", sm: "100%", md: "100%" }}
       style={{
         position: "fixed",
         top: 0,

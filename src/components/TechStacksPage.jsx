@@ -24,11 +24,12 @@ import ReduxA from "../techstacks/ReduxA";
 
 const TechStacksPage = () => {
   return (
-    <Stack width={{ base: "100%", sm: "100%", md: "100%" }}>
+    <Stack width={{ base: "100%", sm: "100%", md: "100%" }} mt={[150, 0, 0]}>
       <VStack
+        width={{ base: "100%", sm: "100%", md: "100%" }}
         backgroundColor="rgb(16,16,26)"
         textAlign="center"
-        height={{ base: "60rem", sm: "55rem", md: "45rem" }}
+        height={{ base: "60rem", sm: "60rem", md: "45rem" }}
       >
         <Box mt="5rem">
           <Heading
