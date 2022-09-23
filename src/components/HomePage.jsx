@@ -50,7 +50,7 @@ const HomePage = () => {
         <Box
           w={[300, 600, 1000]}
           pt="5rem"
-          border="1px solid red"
+          // border="1px solid red"
           ml={[70, 30, 30]}
         >
           <SimpleGrid columns={[1, 1, 2]}>

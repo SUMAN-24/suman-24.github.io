@@ -29,6 +29,13 @@ export const Github = () => {
               username="SUMAN-24"
               year="last"
               showWeekdayLabels="true"
+              labels={{
+                labels: {
+                  totalCount: "{{count}} contributions in {{year}}",
+                  tooltip:
+                    "<strong>{{count}} contributions</strong> on {{date}}",
+                },
+              }}
               blockSize={15}
               blockMargin={5}
               fontSize={16}

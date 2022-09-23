@@ -106,13 +106,7 @@ export default function WithSubnavigation() {
         </Box>
 
         <Box display={{ base: "none", sm: "none", md: "inline-flex" }}>
-          <a
-            href={
-              "https://drive.google.com/file/d/19KpfKjphbpUxuXF44ul__PTkXaMzLwZW/view?usp=sharing"
-            }
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href={require("../pdf/Suman_Khan_Resume.pdf")} download>
             <Button
               fontSize={"md"}
               fontWeight={600}
