@@ -47,9 +47,14 @@ const HomePage = () => {
           </Heading>
         </Box>
 
-        <Box pt="5rem" border="1px solid red">
+        <Box
+          w={[300, 600, 1000]}
+          pt="5rem"
+          border="1px solid red"
+          ml={[70, 30, 30]}
+        >
           <SimpleGrid columns={[1, 1, 2]}>
-            <Box ml="5rem">
+            <Box ml={[0, 125, 15]}>
               <Image
                 // width={300}
                 // height={400}
@@ -59,18 +64,19 @@ const HomePage = () => {
                 alt="Suman"
               />
             </Box>
-            <Box pr="5rem" pt="4rem">
+            <Box pr="5rem" pt="4rem" ml="2rem">
               <Heading
                 as="h2"
                 fontFamily="sans-serif"
                 fontSize="3xl"
                 fontWeight="semibold"
                 color="rgb(16,24,52)"
-                noOfLines={[4, 4, 4]}
+                noOfLines={[12, 4, 4]}
               >
                 <Text>⌛ 1200+,</Text>
                 <Text> Hours of coding </Text>
                 <Text>Made me</Text>
+
                 <Type />
               </Heading>
 
