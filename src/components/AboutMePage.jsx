@@ -103,13 +103,12 @@ const AboutMePage = () => {
           </Box> */}
 
         <Box pt="2rem" display="flex" mt="7rem" gap="6rem">
-          <Box pr="6rem" pt="-4rem">
+          <Box pr="6rem" pt="-4rem" noOfLines={[10, 20, 15]}>
             <Heading
               fontFamily="sans-serif"
               fontSize="lg"
               fontWeight="bold"
               color="rgb(16,24,52)"
-              noOfLines={[9, 10, 11, 12, 13, 14, 15]}
               textAlign="center"
               ml="4rem"
             >

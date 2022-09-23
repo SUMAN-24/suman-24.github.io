@@ -45,8 +45,8 @@ export default function WithSubnavigation() {
         backgroundColor: "rgb(255,255,255)",
         zIndex: 1,
       }}
-      w="100%"
-      overflow="hidden"
+
+      // overflow="hidden"
     >
       <HStack>
         {/* <Flex
@@ -205,15 +205,13 @@ const MobileNav = () => {
         position: "fixed",
         top: 0,
         backgroundColor: "rgb(255,255,255)",
-        zIndex: 2,
+        zIndex: 1,
       }}
-      w="100%"
-      overflow="hidden"
       bg={useColorModeValue("white", "gray.800")}
       p={4}
       ml={600}
     >
-      <Box display={{ base: "flex", sm: "flex", md: "none" }}>
+      <Box>
         <IconButton
           aria-label="hamburger"
           icon={<HamburgerIcon />}
@@ -291,6 +289,7 @@ const MobileNav = () => {
                       }
                       target="_blank"
                       rel="noreferrer"
+                      download
                     >
                       <Resume width="5rem" colorScheme="facebook" />
                     </a>

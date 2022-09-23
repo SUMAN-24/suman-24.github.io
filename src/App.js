@@ -1,3 +1,4 @@
+import { Box } from "@chakra-ui/react";
 import "./App.css";
 import AboutMePage from "./components/AboutMePage";
 import ContactMePage from "./components/ContactMePage";
@@ -14,29 +15,29 @@ function App() {
   return (
     <div className="App">
       <WithSubnavigation />
-      <section id="#home">
+      <Box id="#home">
         <HomePage />
-      </section>
-      <section id="#about">
+      </Box>
+      <Box id="#about">
         <AboutMePage />
-      </section>
-      <section id="techstacks">
+      </Box>
+      <Box id="techstacks">
         <TechStacksPage />
-      </section>
-      <section id="skills">
+      </Box>
+      <Box id="skills">
         <SkillsPage />
-      </section>
-      <section id="#projects">
+      </Box>
+      <Box id="#projects">
         <ProjectsPage />
-      </section>
-      <section>
+      </Box>
+      <Box>
         <StatisticsPage />
         <Github />
-      </section>
+      </Box>
       <ScrollToTop />
-      <section id="#contact">
+      <Box id="#contact">
         <ContactMePage />
-      </section>
+      </Box>
     </div>
   );
 }
