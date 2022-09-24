@@ -13,12 +13,12 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import Css from "../../techstacks/Css";
-import Html from "../../techstacks/Html";
-import Javascript from "../../techstacks/Javascript";
+import Css from "../techstacks/Css";
+import Html from "../techstacks/Html";
+import Javascript from "../techstacks/Javascript";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import Git from "../../techstacks/Git";
-import Bootstrap from "../../techstacks/Bootstrap";
+import Git from "../techstacks/Git";
+import Bootstrap from "../techstacks/Bootstrap";
 
 const Project3 = () => {
   return (
@@ -39,7 +39,7 @@ const Project3 = () => {
             <VStack>
               <Box>
                 <video
-                  src={require("../../videos/Tata_CLiQ.mp4")}
+                  src={require("../videos/Tata_CLiQ.mp4")}
                   playsInline
                   autoPlay
                   muted

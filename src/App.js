@@ -1,15 +1,15 @@
 import { Box } from "@chakra-ui/react";
 import "./App.css";
-import AboutMePage from "./components/AboutMePage";
-import ContactMePage from "./components/ContactMePage";
+import AboutMePage from "./pages/AboutMePage";
+import ContactMePage from "./pages/ContactMePage";
 import { Github } from "./components/Github";
-import HomePage from "./components/HomePage";
+import HomePage from "./pages/HomePage";
 import WithSubnavigation from "./components/Navbar";
-import ProjectsPage from "./components/ProjectsPage";
-import { ScrollToTop } from "./components/ScrollToTop";
-import SkillsPage from "./components/SkillsPage";
-import StatisticsPage from "./components/StatisticsPage";
-import TechStacksPage from "./components/TechStacksPage";
+import ProjectsPage from "./pages/ProjectsPage";
+import { ScrollToTop } from "./scroll/ScrollToTop";
+import SkillsPage from "./pages/SkillsPage";
+import StatisticsPage from "./pages/StatisticsPage";
+import TechStacksPage from "./pages/TechStacksPage";
 
 function App() {
   return (

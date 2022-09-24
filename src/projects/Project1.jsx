@@ -13,14 +13,13 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import Css from "../../techstacks/Css";
-import Html from "../../techstacks/Html";
+import Css from "../techstacks/Css";
+import Html from "../techstacks/Html";
+import Javascript from "../techstacks/Javascript";
 import { MdKeyboardArrowRight } from "react-icons/md";
-import Reacts from "../../techstacks/Reacts";
-import Chakra from "../../techstacks/Chakra";
-import Git from "../../techstacks/Git";
+import Git from "../techstacks/Git";
 
-const Project2 = () => {
+const Project1 = () => {
   return (
     <Box
       border="4px solid teal"
@@ -39,7 +38,7 @@ const Project2 = () => {
             <VStack>
               <Box>
                 <video
-                  src={require("../../videos/Mentimeter.mp4")}
+                  src={require("../videos/Royal_Enfield.mp4")}
                   playsInline
                   autoPlay
                   muted
@@ -81,27 +80,15 @@ const Project2 = () => {
                       </Text>
                     </Link>
 
-                    <Link href="https://reactjs.org/">
-                      <Reacts />
+                    <Link href="https://www.javascript.com/">
+                      <Javascript />
                       <Text
                         fontFamily="body"
                         fontSize="md"
                         fontWeight="bold"
                         color="blackAlpha"
                       >
-                        REACT
-                      </Text>
-                    </Link>
-
-                    <Link href="https://chakra-ui.com/">
-                      <Chakra />
-                      <Text
-                        fontFamily="body"
-                        fontSize="md"
-                        fontWeight="bold"
-                        color="blackAlpha"
-                      >
-                        CHAKRA UI
+                        JAVASCRIPT
                       </Text>
                     </Link>
 
@@ -131,13 +118,25 @@ const Project2 = () => {
           >
             <VStack>
               <Box>
-                <Heading>Mentimeter Clone</Heading>
+                <Heading>Royal Enfield Clone</Heading>
               </Box>
               <Box
 
               // border="1px solid red"
               >
                 <List textAlign="left" spacing="1.5rem" fontSize="1.1rem">
+                  <ListItem
+                    fontWeight="semibold"
+                    color="rgba(16, 24, 52, 0.75)"
+                  >
+                    <ListIcon
+                      as={MdKeyboardArrowRight}
+                      width={30}
+                      height={30}
+                      color="teal.600"
+                    />
+                    Complete Responsiveness
+                  </ListItem>
                   <ListItem
                     fontWeight="semibold"
                     color="rgba(16, 24, 52, 0.75)"
@@ -160,7 +159,8 @@ const Project2 = () => {
                       height={30}
                       color="teal.600"
                     />
-                    HomePage, Pricing Page, Enterprise Page
+                    Products, Add to Cart, Payment option(with Sorting,
+                    Filtering, Searching option)
                   </ListItem>
                   <ListItem
                     fontWeight="semibold"
@@ -172,25 +172,13 @@ const Project2 = () => {
                       height={30}
                       color="teal.600"
                     />
-                    Routings
-                  </ListItem>
-                  <ListItem
-                    fontWeight="semibold"
-                    color="rgba(16, 24, 52, 0.75)"
-                  >
-                    <ListIcon
-                      as={MdKeyboardArrowRight}
-                      width={30}
-                      height={30}
-                      color="teal.600"
-                    />
-                    Facebook Integration for login
+                    Form Validation
                   </ListItem>
                 </List>
               </Box>
               <Box>
                 <a
-                  href="https://mentimeter-clone.netlify.app/"
+                  href="https://royal-enfield-clone.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -210,14 +198,13 @@ const Project2 = () => {
                     colorScheme={"messenger"}
                     variant="solid"
                     borderRadius={4}
-                    href={"#"}
                   >
                     Live
                   </Button>
                 </a>
 
                 <a
-                  href="https://github.com/SUMAN-24/lucid-sand-4612"
+                  href="https://github.com/SUMAN-24/Royal-Enfield"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -252,4 +239,4 @@ const Project2 = () => {
   );
 };
 
-export default Project2;
+export default Project1;

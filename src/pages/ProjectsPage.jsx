@@ -8,9 +8,9 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import Project1 from "./projects/Project1";
-import Project2 from "./projects/Project2";
-import Project3 from "./projects/Project3";
+import Project1 from "../projects/Project1";
+import Project2 from "../projects/Project2";
+import Project3 from "../projects/Project3";
 
 const ProjectsPage = () => {
   return (
