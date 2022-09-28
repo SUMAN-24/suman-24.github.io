@@ -3,7 +3,7 @@ import React from "react";
 import Githubcalendar from "react-github-calendar";
 export const Github = () => {
   return (
-    <Stack mt={10}>
+    <Stack width={[644, 710, 1348]} mt={10}>
       <Center>
         <VStack>
           <Text

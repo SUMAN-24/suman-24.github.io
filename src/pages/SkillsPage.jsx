@@ -13,11 +13,16 @@ import React from "react";
 
 const SkillsPage = () => {
   return (
-    <Stack width="100%" mt="-2">
+    <Stack
+      width={[672, 710, 1348]}
+      height={[2130, 720, 500]}
+      backgroundColor="rgb(236,237,239)"
+      // border="1px solid red"
+      mt="-2"
+    >
       <VStack
-        backgroundColor="rgb(236,237,239)"
         textAlign="center"
-        height={{ base: "83rem", sm: "45rem", md: "30rem" }}
+        //height={{ base: "83rem", sm: "45rem", md: "30rem" }}
       >
         <Box mt="5rem">
           <Heading

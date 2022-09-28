@@ -47,11 +47,11 @@ const MobileNav = () => {
       }}
       //border="1px solid red"
       width="100%"
-      height="50px"
+      height="65px"
     >
       <Stack>
         <HStack>
-          <Box ml={3} mt={-2}>
+          <Box ml={3}>
             <Logo />
           </Box>
           <Spacer />

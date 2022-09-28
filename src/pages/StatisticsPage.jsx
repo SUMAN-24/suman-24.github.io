@@ -13,7 +13,7 @@ import React from "react";
 
 const StatisticsPage = () => {
   return (
-    <Stack>
+    <Stack width={[672, 710, 1348]}>
       <VStack>
         <Box mt="3rem">
           <Heading

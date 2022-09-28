@@ -14,7 +14,11 @@ import Project3 from "../projects/Project3";
 
 const ProjectsPage = () => {
   return (
-    <Stack>
+    <Stack
+      width={[672, 710, 1348]}
+      height={[3230, 2900, 1850]}
+      //border="1px solid red"
+    >
       <VStack>
         <Box mt="5rem">
           <Heading
@@ -42,8 +46,8 @@ const ProjectsPage = () => {
             color="rgb(16,24,52)"
             columns={{ base: 1, sm: 1, md: 1 }}
             textAlign="center"
-            ml={[4, 14, 7]}
-            mr="7rem"
+            ml={[4, 7, 7]}
+            mr={[2, 125, 95]}
             pt="3rem"
             spacing={5}
           >

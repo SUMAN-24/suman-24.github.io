@@ -3,8 +3,14 @@ import React from "react";
 
 const AboutMePage = () => {
   return (
-    <Stack width="100%" mt="4rem">
-      <VStack backgroundColor="rgb(236,237,239)" height={[400, 600, 500]}>
+    <Stack
+      width={[672, 710, 1348]}
+      mt="4rem"
+      //border="1px solid red"
+      backgroundColor="rgb(236,237,239)"
+      height={[730, 720, 500]}
+    >
+      <VStack>
         <Box mt="5rem">
           <Heading
             fontWeight="semibold"
@@ -23,87 +29,8 @@ const AboutMePage = () => {
             ml="1.8rem"
           />
         </Box>
-        {/* 
-          <Box pt="1.5rem">
-            <HStack gap="5rem">
-              <VStack>
-                <Box>
-                  <Heading
-                    fontWeight="semibold"
-                    fontFamily="body"
-                    fontSize="6xl"
-                    color="rgb(16,24,52)"
-                  >
-                    280 M
-                  </Heading>
-                  <Divider
-                    width="18rem"
-                    fontWeight="bold"
-                    fontFamily="body"
-                    borderColor="rgb(16,24,52)"
-                    borderWidth="1.2px"
-                  />
-                </Box>
-                <Box pt="1rem">
-                  <Text fontSize="xl" fontWeight="semibold">
-                    Voters
-                  </Text>
-                </Box>
-              </VStack>
-
-              <VStack>
-                <Box>
-                  <Heading
-                    fontWeight="semibold"
-                    fontFamily="body"
-                    fontSize="6xl"
-                    color="rgb(16,24,52)"
-                  >
-                    14 M
-                  </Heading>
-                  <Divider
-                    width="18rem"
-                    fontWeight="bold"
-                    fontFamily="body"
-                    borderColor="rgb(16,24,52)"
-                    borderWidth="1.2px"
-                  />
-                </Box>
-                <Box pt="1rem">
-                  <Text fontSize="xl" fontWeight="semibold">
-                    Presenters
-                  </Text>
-                </Box>
-              </VStack>
-
-              <VStack>
-                <Box>
-                  <Heading
-                    fontWeight="semibold"
-                    fontFamily="body"
-                    fontSize="6xl"
-                  >
-                    220+
-                  </Heading>
-                  <Divider
-                    width="18rem"
-                    fontWeight="bold"
-                    fontFamily="body"
-                    borderColor="rgb(16,24,52)"
-                    borderWidth="1.2px"
-                  />
-                </Box>
-                <Box pt="1rem">
-                  <Text fontSize="xl" fontWeight="semibold">
-                    Countries & territories
-                  </Text>
-                </Box>
-              </VStack>
-            </HStack>
-          </Box> */}
-
         <Box pt="2rem" display="flex" mt="7rem">
-          <Box pr="6rem" pt="-4rem" noOfLines={[15, 60, 15]}>
+          <Box pr="6rem" pt="-4rem" noOfLines={[28, 60, 15]}>
             <Heading
               fontFamily="sans-serif"
               fontSize="lg"

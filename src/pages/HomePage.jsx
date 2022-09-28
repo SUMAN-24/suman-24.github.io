@@ -14,7 +14,7 @@ import Type from "../components/Type";
 
 const HomePage = () => {
   return (
-    <Stack>
+    <Stack width={[644, 710, 1348]}>
       <VStack>
         <Box mt="3.6rem">
           <Heading
