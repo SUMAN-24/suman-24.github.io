@@ -13,11 +13,10 @@ import React from "react";
 
 const SkillsPage = () => {
   return (
-    <Stack width={{ base: "100%", sm: "100%", md: "100%" }}>
+    <Stack width="100%" mt="-2">
       <VStack
         backgroundColor="rgb(236,237,239)"
         textAlign="center"
-        width={{ base: "100%", sm: "100%", md: "100%" }}
         height={{ base: "83rem", sm: "45rem", md: "30rem" }}
       >
         <Box mt="5rem">

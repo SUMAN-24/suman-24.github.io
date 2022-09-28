@@ -3,12 +3,8 @@ import React from "react";
 
 const AboutMePage = () => {
   return (
-    <Stack width={{ base: "100%", sm: "100%", md: "100%" }} mt="7rem">
-      <VStack
-        width={{ base: "100%", sm: "100%", md: "100%" }}
-        backgroundColor="rgb(236,237,239)"
-        height={[400, 600, 500]}
-      >
+    <Stack width="100%" mt="4rem">
+      <VStack backgroundColor="rgb(236,237,239)" height={[400, 600, 500]}>
         <Box mt="5rem">
           <Heading
             fontWeight="semibold"

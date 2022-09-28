@@ -1,20 +1,20 @@
-import { Box } from "@chakra-ui/react";
+import { Box, Stack } from "@chakra-ui/react";
 import "./App.css";
 import AboutMePage from "./pages/AboutMePage";
 import ContactMePage from "./pages/ContactMePage";
 import { Github } from "./components/Github";
 import HomePage from "./pages/HomePage";
-import WithSubnavigation from "./components/Navbar";
 import ProjectsPage from "./pages/ProjectsPage";
 import { ScrollToTop } from "./scroll/ScrollToTop";
 import SkillsPage from "./pages/SkillsPage";
 import StatisticsPage from "./pages/StatisticsPage";
 import TechStacksPage from "./pages/TechStacksPage";
+import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App">
-      <WithSubnavigation />
+    <Stack textAlign="center">
+      <Navbar />
       <Box id="#home">
         <HomePage />
       </Box>
@@ -38,7 +38,7 @@ function App() {
       <Box id="#contact">
         <ContactMePage />
       </Box>
-    </div>
+    </Stack>
   );
 }
 
