@@ -10,7 +10,6 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import Resume from "../components/Resume";
 import Type from "../components/Type";
 
 const HomePage = () => {
