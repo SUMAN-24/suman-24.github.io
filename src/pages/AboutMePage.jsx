@@ -4,11 +4,11 @@ import React from "react";
 const AboutMePage = () => {
   return (
     <Stack
-      width={[672, 710, 1348]}
-      mt="4rem"
+      width={[972, 974, 1348]}
+      height={[730, 720, 500]}
+      mt="-0.5rem"
       //border="1px solid red"
       backgroundColor="rgb(236,237,239)"
-      height={[730, 720, 500]}
     >
       <VStack>
         <Box mt="5rem">

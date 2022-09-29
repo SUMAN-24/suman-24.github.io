@@ -25,13 +25,13 @@ const Project3 = () => {
     <Box
       border="4px solid teal"
       borderRadius="2rem"
-      w={[240, 650, 1140]}
+      w={[850, 900, 1140]}
       ml={[2, 1, 20]}
     >
       <HStack>
         <SimpleGrid columns={{ base: 1, sm: 1, md: 2 }}>
           <Box
-            w={[240, 620, 640]}
+            w={[820, 880, 640]}
             ml={[2, 2, 4]}
             mt={4}
             // border="1px solid red"
@@ -126,11 +126,11 @@ const Project3 = () => {
             w={430}
             h={340}
             mt={4}
-            ml={[20, 15, 95]}
+            ml={[10, 15, 95]}
             // border="1px solid red"
           >
             <VStack>
-              <Box>
+              <Box ml={[-32, -32, 12]}>
                 <Heading>Tata-CLiQ Clone</Heading>
               </Box>
               <Box
@@ -189,7 +189,7 @@ const Project3 = () => {
                   </ListItem>
                 </List>
               </Box>
-              <Box>
+              <Box pl={[300, 400, 12]} display="flex">
                 <a
                   href="https://clone-tatacliq.netlify.app/"
                   target="_blank"

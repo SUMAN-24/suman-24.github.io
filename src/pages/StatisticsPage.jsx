@@ -13,7 +13,11 @@ import React from "react";
 
 const StatisticsPage = () => {
   return (
-    <Stack width={[672, 710, 1348]}>
+    <Stack
+      width={[972, 969, 1348]}
+      height={[830, 830, 520]}
+      //border="1px solid red"
+    >
       <VStack>
         <Box mt="3rem">
           <Heading
@@ -37,13 +41,13 @@ const StatisticsPage = () => {
           <Box
             border="4px solid teal"
             borderRadius="2rem"
-            w={[240, 650, 1140]}
+            w={[650, 650, 1140]}
             ml={[2, 1, 30]}
             pt="4rem"
             backgroundColor="rgb(16,16,26)"
             textAlign="center"
           >
-            <SimpleGrid columns={{ base: 1, sm: 2, md: 4 }}>
+            <SimpleGrid columns={{ base: 2, sm: 2, md: 4 }}>
               <Box>
                 <VStack>
                   <Box

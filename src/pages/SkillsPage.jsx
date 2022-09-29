@@ -14,10 +14,10 @@ import React from "react";
 const SkillsPage = () => {
   return (
     <Stack
-      width={[672, 710, 1348]}
-      height={[2130, 720, 500]}
+      width={[972, 969, 1348]}
+      height={[2870, 900, 500]}
       backgroundColor="rgb(236,237,239)"
-      // border="1px solid red"
+      //border="1px solid red"
       mt="-2"
     >
       <VStack

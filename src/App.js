@@ -13,8 +13,10 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <Stack textAlign="center">
-      <Navbar />
+    <Stack textAlign="center" width="100%" height="auto">
+      <Box>
+        <Navbar />
+      </Box>
       <Box id="#home">
         <HomePage />
       </Box>

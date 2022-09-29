@@ -14,9 +14,13 @@ import Type from "../components/Type";
 
 const HomePage = () => {
   return (
-    <Stack width={[644, 710, 1348]}>
+    <Stack
+      width={[972, 969, 1348]}
+      height={[820, 790, 780]}
+      //border="1px solid red"
+    >
       <VStack>
-        <Box mt="3.6rem">
+        <Box mt="5rem">
           <Heading
             fontFamily="sans-serif"
             fontSize="5xl"
@@ -48,30 +52,38 @@ const HomePage = () => {
         </Box>
 
         <Box
-          w={[300, 600, 1000]}
+          w={[790, 820, 1000]}
+          h={[530, 500, 500]}
           pt="5rem"
-          // border="1px solid red"
+          //border="1px solid red"
           ml={[70, 30, 30]}
         >
-          <SimpleGrid columns={[1, 1, 2]}>
-            <Box ml={[0, 125, 15]}>
+          <SimpleGrid columns={[2, 2, 2]}>
+            <Box ml={[0, 100, 15]} mt={[-14, -14, -14]}>
               <Image
-                // width={300}
-                // height={400}
+                width={[300, 300, 300]}
+                height={[450, 450, 450]}
                 borderRadius="8%"
                 border="2px solid teal"
                 src={require("../Images/SK theme.jpg")}
                 alt="Suman"
+                mt={[10, 6, 1]}
               />
             </Box>
-            <Box pr="5rem" pt="4rem" ml="2rem">
+            <Box
+              pr="5rem"
+              pt="4rem"
+              ml="2rem"
+              //display={{ base: "flex", sm: "flex" }}
+              w={[460, 460, 500]}
+            >
               <Heading
                 as="h2"
                 fontFamily="sans-serif"
                 fontSize="3xl"
                 fontWeight="semibold"
                 color="rgb(16,24,52)"
-                noOfLines={[12, 4, 4]}
+                noOfLines={[4, 4, 4]}
               >
                 <Text>⌛ 1200+,</Text>
                 <Text> Hours of coding </Text>

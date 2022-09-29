@@ -38,7 +38,7 @@ const ContactMePage = () => {
   }
 
   return (
-    <Stack width={[672, 710, 1348]}>
+    <Stack width={[972, 969, 1348]}>
       <VStack>
         <Box mt={[110, 30, 10]}>
           <Heading
@@ -55,7 +55,7 @@ const ContactMePage = () => {
           <Text
             mt="0.5rem"
             color="rgba(16, 24, 52, 0.75)"
-            fontSize="xl"
+            fontSize={["xx-large", "xxx-large", "xxx-large"]}
             fontWeight="semibold"
           >
             using email
@@ -69,7 +69,7 @@ const ContactMePage = () => {
                 htmlFor="email"
                 mt="0.5rem"
                 color="rgba(16, 24, 52, 0.75)"
-                fontSize="md"
+                fontSize={["xx-large", "xx-large", "xx-large"]}
                 fontWeight="bold"
               >
                 Email Address
@@ -91,7 +91,7 @@ const ContactMePage = () => {
               <FormLabel
                 mt="0.5rem"
                 color="rgba(16, 24, 52, 0.75)"
-                fontSize="md"
+                fontSize={["xx-large", "xx-large", "xx-large"]}
                 fontWeight="bold"
               >
                 Message

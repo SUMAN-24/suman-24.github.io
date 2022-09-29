@@ -25,10 +25,10 @@ import ReduxA from "../techstacks/ReduxA";
 const TechStacksPage = () => {
   return (
     <Stack
-      width={[672, 710, 1348]}
-      height={[730, 720, 689]}
+      width={[972, 969, 1348]}
+      height={[880, 880, 689]}
       //border="1px solid red"
-      mt={[150, 0, -2]}
+      mt={[-1, -2, -2]}
     >
       <VStack
         backgroundColor="rgb(16,16,26)"

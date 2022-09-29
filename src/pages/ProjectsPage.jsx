@@ -15,8 +15,8 @@ import Project3 from "../projects/Project3";
 const ProjectsPage = () => {
   return (
     <Stack
-      width={[672, 710, 1348]}
-      height={[3230, 2900, 1850]}
+      width={[972, 969, 1348]}
+      height={[3230, 3350, 1850]}
       //border="1px solid red"
     >
       <VStack>

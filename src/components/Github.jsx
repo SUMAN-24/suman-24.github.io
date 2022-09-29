@@ -3,7 +3,7 @@ import React from "react";
 import Githubcalendar from "react-github-calendar";
 export const Github = () => {
   return (
-    <Stack width={[644, 710, 1348]} mt={10}>
+    <Stack width={[972, 969, 1348]} mt={10}>
       <Center>
         <VStack>
           <Text
@@ -21,9 +21,9 @@ export const Github = () => {
           <Box
             border="4px solid teal"
             borderRadius="2rem"
-            w={[240, 680, 1140]}
-            pl={[2, 7, 45]}
-            h={[10, 40, 60]}
+            w={[900, 680, 1140]}
+            pl={[10, 7, 45]}
+            h={[60, 40, 60]}
           >
             <Githubcalendar
               username="SUMAN-24"

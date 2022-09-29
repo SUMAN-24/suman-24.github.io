@@ -6,7 +6,6 @@ import {
   DrawerBody,
   DrawerCloseButton,
   DrawerContent,
-  DrawerOverlay,
   HStack,
   IconButton,
   Spacer,
@@ -41,17 +40,17 @@ const MobileNav = () => {
       display={{ base: "flex", sm: "flex", md: "none" }}
       style={{
         position: "fixed",
-        top: 0,
+        top: -9,
         backgroundColor: "rgb(255,255,255)",
         zIndex: 1,
       }}
       //border="1px solid red"
       width="100%"
-      height="65px"
+      height="95px"
     >
       <Stack>
         <HStack>
-          <Box ml={3}>
+          <Box ml={3} mt={3}>
             <Logo />
           </Box>
           <Spacer />
@@ -63,9 +62,11 @@ const MobileNav = () => {
               colorScheme="teal"
               onClick={onOpen}
               variant={"ghost"}
-              w={3}
-              h={3}
-              fontSize={25}
+              w={8}
+              h={8}
+              fontSize={55}
+              mr={3}
+              mt={3}
             />
 
             <Drawer
@@ -73,13 +74,13 @@ const MobileNav = () => {
               placement="right"
               onClose={onClose}
               finalFocusRef={btnRef}
-              size={{ base: "sm", sm: "md", md: "none" }}
+              size="md"
             >
-              <DrawerOverlay />
+              {/* <DrawerOverlay /> */}
               <DrawerContent
                 style={{
                   backgroundColor: "rgb(14,36,49)",
-                  marginTop: "65px",
+                  marginTop: "88px",
                 }}
                 maxHeight="-moz-fit-content"
               >
@@ -89,7 +90,7 @@ const MobileNav = () => {
                   <VStack
                     style={{
                       width: "100px",
-                      height: "160px",
+                      height: "auto",
                       marginTop: "10px",
                       color: "white",
                     }}
@@ -159,7 +160,7 @@ const MobileNav = () => {
           </Box>
         </HStack>
       </Stack>
-      <Divider />
+      <Divider pt={3} />
     </Stack>
   );
 };
