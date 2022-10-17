@@ -14,12 +14,8 @@ import Type from "../components/Type";
 
 const HomePage = () => {
   return (
-    <Stack
-      width={[972, 969, 1348]}
-      height={[820, 790, 780]}
-      //border="1px solid red"
-    >
-      <VStack>
+    <Stack width="100%" height={[1250, 790, 780]}>
+      <VStack width="100%" background="fixed">
         <Box mt="5rem">
           <Heading
             fontFamily="sans-serif"
@@ -34,7 +30,7 @@ const HomePage = () => {
                 width="12rem"
                 height="2rem"
                 hasArrow
-                placement="right"
+                placement="auto"
                 label="Full Stack Web Developer"
                 bg="messenger.600"
                 color="white"
@@ -51,39 +47,25 @@ const HomePage = () => {
           </Heading>
         </Box>
 
-        <Box
-          w={[790, 820, 1000]}
-          h={[530, 500, 500]}
-          pt="5rem"
-          //border="1px solid red"
-          ml={[70, 30, 30]}
-        >
-          <SimpleGrid columns={[2, 2, 2]}>
-            <Box ml={[0, 100, 15]} mt={[-14, -14, -14]}>
+        <Box w={{ sm: "95%", md: "85%", lg: "80%", xl: "80%" }} pt="5rem">
+          <SimpleGrid columns={{ base: 1, sm: 2, md: 2, lg: 2 }}>
+            <Box mt={[-20, -20, -14, -14]}>
               <Image
-                width={[300, 300, 300]}
-                height={[450, 450, 450]}
+                width={[300, 300, 300, 300]}
+                height={[450, 450, 450, 450]}
                 borderRadius="8%"
                 border="2px solid teal"
                 src={require("../Images/SK theme.jpg")}
                 alt="Suman"
-                mt={[10, 6, 1]}
               />
             </Box>
-            <Box
-              pr="5rem"
-              pt="4rem"
-              ml="2rem"
-              //display={{ base: "flex", sm: "flex" }}
-              w={[460, 460, 500]}
-            >
+            <Box pt="4rem">
               <Heading
                 as="h2"
                 fontFamily="sans-serif"
                 fontSize="3xl"
                 fontWeight="semibold"
                 color="rgb(16,24,52)"
-                noOfLines={[4, 4, 4]}
               >
                 <Text>⌛ 1200+,</Text>
                 <Text> Hours of coding </Text>

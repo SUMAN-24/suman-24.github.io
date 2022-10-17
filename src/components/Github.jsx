@@ -1,9 +1,9 @@
-import { Box, Center, Stack, Text, VStack } from "@chakra-ui/react";
+import { Box, Center, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 import Githubcalendar from "react-github-calendar";
 export const Github = () => {
   return (
-    <Stack width={[972, 969, 1348]} mt={10}>
+    <Box mt={10}>
       <Center>
         <VStack>
           <Text
@@ -20,10 +20,9 @@ export const Github = () => {
           </Text>
           <Box
             border="4px solid teal"
+            h={{ base: 140, sm: 170, md: 200, lg: 240 }}
             borderRadius="2rem"
-            w={[900, 680, 1140]}
             pl={[10, 7, 45]}
-            h={[60, 40, 60]}
           >
             <Githubcalendar
               username="SUMAN-24"
@@ -43,6 +42,6 @@ export const Github = () => {
           </Box>
         </VStack>
       </Center>
-    </Stack>
+    </Box>
   );
 };

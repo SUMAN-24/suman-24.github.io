@@ -38,7 +38,7 @@ const ContactMePage = () => {
   }
 
   return (
-    <Stack width={[972, 969, 1348]}>
+    <Stack>
       <VStack>
         <Box mt={[110, 30, 10]}>
           <Heading

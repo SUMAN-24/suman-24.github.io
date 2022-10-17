@@ -20,7 +20,7 @@ const DesktopNav = () => {
   };
   return (
     <Stack
-      display={{ base: "none", sm: "none", md: "center" }}
+      display={{ base: "none", sm: "none", md: "center", lg: "center" }}
       style={{
         position: "fixed",
         top: 0,
@@ -29,7 +29,6 @@ const DesktopNav = () => {
       }}
       width="100%"
       height="64px"
-      //border="1px solid red"
     >
       <Stack width="100%">
         <HStack>
@@ -85,8 +84,7 @@ const DesktopNav = () => {
           </Box>
           <Spacer />
           <Box
-            display={{ base: "none", sm: "none", md: "flex" }}
-            //border="1px solid red"
+            display={{ base: "none", sm: "none", md: "flex", lg: "flex" }}
             ml={80}
           >
             <a href={require("../pdf/Suman_Khan_Resume.pdf")} download>
@@ -101,7 +99,6 @@ const DesktopNav = () => {
                 _hover={{
                   backgroundColor: "messenger.600",
                 }}
-                // ml={250}
                 mr={8}
               >
                 Resume

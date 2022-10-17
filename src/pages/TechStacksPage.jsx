@@ -24,17 +24,8 @@ import ReduxA from "../techstacks/ReduxA";
 
 const TechStacksPage = () => {
   return (
-    <Stack
-      width={[972, 969, 1348]}
-      height={[880, 880, 689]}
-      //border="1px solid red"
-      mt={[-1, -2, -2]}
-    >
-      <VStack
-        backgroundColor="rgb(16,16,26)"
-        textAlign="center"
-        //height={{ base: "60rem", sm: "60rem", md: "45rem" }}
-      >
+    <Stack width="100%">
+      <VStack backgroundColor="rgb(16,16,26)" textAlign="center" width="100%">
         <Box mt="5rem">
           <Heading
             fontWeight="semibold"
@@ -58,7 +49,7 @@ const TechStacksPage = () => {
           fontFamily="body"
           fontSize="sm"
           color="rgb(16,24,52)"
-          columns={{ base: 3, sm: 3, md: 4 }}
+          columns={{ base: 1, sm: 2, md: 3, lg: 4 }}
           textAlign="center"
           ml="4rem"
           pt="10rem"

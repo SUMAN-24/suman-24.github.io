@@ -14,12 +14,8 @@ import Project3 from "../projects/Project3";
 
 const ProjectsPage = () => {
   return (
-    <Stack
-      width={[972, 969, 1348]}
-      height={[3230, 3350, 1850]}
-      //border="1px solid red"
-    >
-      <VStack>
+    <Stack width="100%">
+      <VStack width="100%">
         <Box mt="5rem">
           <Heading
             fontWeight="semibold"
@@ -44,7 +40,6 @@ const ProjectsPage = () => {
             fontFamily="body"
             fontSize="sm"
             color="rgb(16,24,52)"
-            columns={{ base: 1, sm: 1, md: 1 }}
             textAlign="center"
             ml={[4, 7, 7]}
             mr={[2, 125, 95]}

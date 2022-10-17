@@ -1,4 +1,4 @@
-import { Box, Stack } from "@chakra-ui/react";
+import { Box } from "@chakra-ui/react";
 import "./App.css";
 import AboutMePage from "./pages/AboutMePage";
 import ContactMePage from "./pages/ContactMePage";
@@ -13,7 +13,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <Stack textAlign="center" width="100%" height="auto">
+    <Box textAlign="center" height="auto" width="100%">
       <Box>
         <Navbar />
       </Box>
@@ -40,7 +40,7 @@ function App() {
       <Box id="#contact">
         <ContactMePage />
       </Box>
-    </Stack>
+    </Box>
   );
 }
 

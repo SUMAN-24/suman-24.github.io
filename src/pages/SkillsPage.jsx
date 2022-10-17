@@ -13,17 +13,8 @@ import React from "react";
 
 const SkillsPage = () => {
   return (
-    <Stack
-      width={[972, 969, 1348]}
-      height={[2870, 900, 500]}
-      backgroundColor="rgb(236,237,239)"
-      //border="1px solid red"
-      mt="-2"
-    >
-      <VStack
-        textAlign="center"
-        //height={{ base: "83rem", sm: "45rem", md: "30rem" }}
-      >
+    <Stack width="100%" backgroundColor="rgb(236,237,239)">
+      <VStack textAlign="center" width="100%">
         <Box mt="5rem">
           <Heading
             fontWeight="semibold"
@@ -47,11 +38,11 @@ const SkillsPage = () => {
             fontFamily="body"
             fontSize="sm"
             color="rgb(16,24,52)"
-            columns={{ base: 1, sm: 2, md: 4 }}
+            columns={{ base: 1, sm: 2, md: 4, lg: 4 }}
             textAlign="center"
             ml="4rem"
             mr="4rem"
-            pt="3rem"
+            pt={{ base: "4rem", sm: "3rem", md: "3rem" }}
             spacing={5}
           >
             <Box border="4px solid teal">

@@ -37,16 +37,15 @@ const MobileNav = () => {
 
   return (
     <Stack
-      display={{ base: "flex", sm: "flex", md: "none" }}
+      display={{ base: "flex", sm: "flex", md: "none", lg: "none" }}
       style={{
         position: "fixed",
         top: -9,
         backgroundColor: "rgb(255,255,255)",
         zIndex: 1,
       }}
-      //border="1px solid red"
       width="100%"
-      height="95px"
+      height="88px"
     >
       <Stack>
         <HStack>
@@ -74,7 +73,6 @@ const MobileNav = () => {
               placement="right"
               onClose={onClose}
               finalFocusRef={btnRef}
-              size="md"
             >
               {/* <DrawerOverlay /> */}
               <DrawerContent
@@ -96,7 +94,7 @@ const MobileNav = () => {
                     }}
                   >
                     <Box>
-                      <Box pb="1rem">
+                      <Box pb="1.6rem">
                         <a
                           href="#home"
                           onClick={() => toggleMobNavList("#home")}
@@ -104,7 +102,7 @@ const MobileNav = () => {
                           <Home />
                         </a>
                       </Box>
-                      <Box mt="1rem" pb="1rem">
+                      <Box mt="1rem" pb="1.6rem">
                         <a
                           href="#about"
                           onClick={() => toggleMobNavList("#about")}
@@ -112,7 +110,7 @@ const MobileNav = () => {
                           <AboutMe />
                         </a>
                       </Box>
-                      <Box mt="1rem" pb="1rem">
+                      <Box mt="1rem" pb="1.6rem">
                         <a
                           href="#projects"
                           onClick={() => toggleMobNavList("#projects")}
@@ -120,7 +118,7 @@ const MobileNav = () => {
                           <Projects />
                         </a>
                       </Box>
-                      <Box mt="1rem" pb="1rem">
+                      <Box mt="1rem" pb="1.6rem">
                         <a
                           href="#techstacks"
                           onClick={() => toggleMobNavList("#skills")}
@@ -128,7 +126,7 @@ const MobileNav = () => {
                           <TechStacks />
                         </a>
                       </Box>
-                      <Box mt="1rem" pb="1rem">
+                      <Box mt="1rem" pb="1.6rem">
                         <a
                           href="#skills"
                           onClick={() => toggleMobNavList("#skills")}
@@ -136,7 +134,7 @@ const MobileNav = () => {
                           <Skills />
                         </a>
                       </Box>
-                      <Box mt="1rem" pb="1rem">
+                      <Box mt="1rem" pb="1.6rem">
                         <a
                           href={require("../pdf/Suman_Khan_Resume.pdf")}
                           download
@@ -144,7 +142,7 @@ const MobileNav = () => {
                           <Resume width="5rem" colorScheme="facebook" />
                         </a>
                       </Box>
-                      <Box mt="1rem" pb="1rem">
+                      <Box mt="1rem" pb="1.6rem">
                         <a
                           href="#contact"
                           onClick={() => toggleMobNavList("#contact")}

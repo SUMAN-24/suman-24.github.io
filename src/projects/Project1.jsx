@@ -9,6 +9,7 @@ import {
   ListIcon,
   ListItem,
   SimpleGrid,
+  Stack,
   Text,
   VStack,
 } from "@chakra-ui/react";
@@ -21,21 +22,11 @@ import Git from "../techstacks/Git";
 
 const Project1 = () => {
   return (
-    <Box
-      border="4px solid teal"
-      borderRadius="2rem"
-      w={[850, 900, 1140]}
-      ml={[2, 1, 20]}
-    >
+    <Stack border="4px solid teal" borderRadius="2rem" width="100%">
       <HStack>
-        <SimpleGrid columns={{ base: 1, sm: 1, md: 2 }}>
-          <Box
-            w={[820, 880, 640]}
-            ml={[2, 2, 4]}
-            mt={4}
-            // border="1px solid red"
-          >
-            <VStack>
+        <SimpleGrid columns={{ base: 1, sm: 1, md: 1, lg: 2 }}>
+          <Box mt={4}>
+            <VStack ml={{ sm: 2, md: 2, lg: 4 }} mr={{ sm: 2, md: 2, lg: 1 }}>
               <Box>
                 <video
                   src={require("../videos/Royal_Enfield.mp4")}
@@ -43,19 +34,12 @@ const Project1 = () => {
                   autoPlay
                   muted
                   loop
-                  w={[240, 600, 640]}
-                  h={[100, 280, 330]}
                 />
               </Box>
 
-              <Box
-                pt={2}
-                w={[240, 600, 640]}
-                h={140}
-                // border="1px solid red"
-              >
+              <Box>
                 <Center>
-                  <HStack>
+                  <SimpleGrid columns={{ base: 2, sm: 4, md: 4, lg: 4 }}>
                     <Link href="https://whatwg.org/">
                       <Html />
                       <Text
@@ -103,27 +87,18 @@ const Project1 = () => {
                         GIT
                       </Text>
                     </Link>
-                  </HStack>
+                  </SimpleGrid>
                 </Center>
               </Box>
             </VStack>
           </Box>
 
-          <Box
-            w={430}
-            h={340}
-            mt={4}
-            ml={[10, 15, 95]}
-            // border="1px solid red"
-          >
+          <Box mt={4}>
             <VStack>
-              <Box ml={[-32, -32, 12]}>
+              <Box>
                 <Heading>Royal Enfield Clone</Heading>
               </Box>
-              <Box
-
-              // border="1px solid red"
-              >
+              <Box>
                 <List textAlign="left" spacing="1.5rem" fontSize="1.1rem">
                   <ListItem
                     fontWeight="semibold"
@@ -176,7 +151,7 @@ const Project1 = () => {
                   </ListItem>
                 </List>
               </Box>
-              <Box pl={[300, 400, 12]} display="flex">
+              <Box display="flex">
                 <a
                   href="https://royal-enfield-clone.netlify.app/"
                   target="_blank"
@@ -235,7 +210,7 @@ const Project1 = () => {
           </Box>
         </SimpleGrid>
       </HStack>
-    </Box>
+    </Stack>
   );
 };
 

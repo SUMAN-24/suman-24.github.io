@@ -6,14 +6,7 @@ import MobileNav from "./MobileNav";
 
 export default function Navbar() {
   return (
-    <Stack
-    // style={{
-    //   position: "fixed",
-    //   top: 0,
-    //   backgroundColor: "rgb(255,255,255)",
-    //   zIndex: 1,
-    // }}
-    >
+    <Stack>
       <DesktopNav />
       <MobileNav />
     </Stack>
