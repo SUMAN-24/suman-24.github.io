@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.41ed2791.css",
-    "main.js": "/static/js/main.909528a1.js",
+    "main.js": "/static/js/main.883f36f4.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/Data Structures.gif": "/static/media/Data Structures.e91429b65669192dce97.gif",
     "static/media/Backend Development.gif": "/static/media/Backend Development.3a2506b4e1de69978cce.gif",
@@ -10,16 +10,16 @@
     "static/media/Tata_CLiQ.mp4": "/static/media/Tata_CLiQ.bb088ecbfaec327706b5.mp4",
     "static/media/Mentimeter.mp4": "/static/media/Mentimeter.a6ebbd4bc8f6e0ad2ed0.mp4",
     "static/media/Royal_Enfield.mp4": "/static/media/Royal_Enfield.ad7da6cbe3cacbb92136.mp4",
-    "static/media/SK portfolio.gif": "/static/media/SK portfolio.a0bfafe192cf5e010491.gif",
+    "static/media/SK_portfolio.gif": "/static/media/SK_portfolio.a0bfafe192cf5e010491.gif",
     "static/media/Suman_Khan_Resume.pdf": "/static/media/Suman_Khan_Resume.00610b05fdf3b5a1b443.pdf",
-    "static/media/SK theme.jpg": "/static/media/SK theme.7d6596d0839af58b4201.jpg",
+    "static/media/SK_theme.jpg": "/static/media/SK_theme.5106c1c0a2d7b0323593.jpg",
     "index.html": "/index.html",
     "main.41ed2791.css.map": "/static/css/main.41ed2791.css.map",
-    "main.909528a1.js.map": "/static/js/main.909528a1.js.map",
+    "main.883f36f4.js.map": "/static/js/main.883f36f4.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ed2791.css",
-    "static/js/main.909528a1.js"
+    "static/js/main.883f36f4.js"
   ]
 }
