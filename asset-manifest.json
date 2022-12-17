@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/static/css/main.41ed2791.css",
-    "main.js": "/static/js/main.586c3158.js",
+    "main.js": "/static/js/main.be4d7751.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
-    "static/media/Data_Structures.gif": "/static/media/Data_Structures.e91429b65669192dce97.gif",
-    "static/media/Backend_Development.gif": "/static/media/Backend_Development.3a2506b4e1de69978cce.gif",
-    "static/media/Communication.gif": "/static/media/Communication.052ea1a3bc9668318eb7.gif",
-    "static/media/FrontEnd_Development.gif": "/static/media/FrontEnd_Development.e4c67ad565fb9f4120d6.gif",
     "static/media/Tata_CLiQ.mp4": "/static/media/Tata_CLiQ.bb088ecbfaec327706b5.mp4",
     "static/media/Mentimeter.mp4": "/static/media/Mentimeter.a6ebbd4bc8f6e0ad2ed0.mp4",
     "static/media/Royal_Enfield.mp4": "/static/media/Royal_Enfield.ad7da6cbe3cacbb92136.mp4",
+    "static/media/Backend_Development.mp4": "/static/media/Backend_Development.059e8d5f02bd1724ac59.mp4",
+    "static/media/Communication.mp4": "/static/media/Communication.3c26df24b0b0c480c512.mp4",
+    "static/media/Data_Structures.mp4": "/static/media/Data_Structures.bd82ce66105263f245b5.mp4",
+    "static/media/FrontEnd_Development.mp4": "/static/media/FrontEnd_Development.4a9549f2da93f768d69d.mp4",
     "static/media/Suman_Khan_Resume.pdf": "/static/media/Suman_Khan_Resume.00610b05fdf3b5a1b443.pdf",
     "static/media/SK_Portfolio.mp4": "/static/media/SK_Portfolio.ebbb6b768ec469735cec.mp4",
     "static/media/SK_theme.jpg": "/static/media/SK_theme.5106c1c0a2d7b0323593.jpg",
     "index.html": "/index.html",
     "main.41ed2791.css.map": "/static/css/main.41ed2791.css.map",
-    "main.586c3158.js.map": "/static/js/main.586c3158.js.map",
+    "main.be4d7751.js.map": "/static/js/main.be4d7751.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ed2791.css",
-    "static/js/main.586c3158.js"
+    "static/js/main.be4d7751.js"
   ]
 }
