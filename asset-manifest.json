@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.41ed2791.css",
-    "main.js": "/static/js/main.93906aba.js",
+    "main.js": "/static/js/main.d4a994f8.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
-    "static/media/Tata_Cliq.mp4": "/static/media/Tata_Cliq.0f09394e5a83585f255f.mp4",
-    "static/media/Mentimeter.mp4": "/static/media/Mentimeter.b2411fde3354fde8b789.mp4",
-    "static/media/Royal_Enfield.mp4": "/static/media/Royal_Enfield.f44d2beb46fe74b4a07f.mp4",
+    "static/media/Tata_Cliq.mp4": "/static/media/Tata_Cliq.f52a59b78c8067bb1ae1.mp4",
+    "static/media/Mentimeter.mp4": "/static/media/Mentimeter.5ed8ff905a9c1bb7d617.mp4",
+    "static/media/Royal_Enfield.mp4": "/static/media/Royal_Enfield.dafcece9300bcc06355d.mp4",
     "static/media/Backend_Development.mp4": "/static/media/Backend_Development.059e8d5f02bd1724ac59.mp4",
     "static/media/Communication.mp4": "/static/media/Communication.3c26df24b0b0c480c512.mp4",
     "static/media/Data_Structures.mp4": "/static/media/Data_Structures.bd82ce66105263f245b5.mp4",
@@ -15,11 +15,11 @@
     "static/media/SK_theme.jpg": "/static/media/SK_theme.5106c1c0a2d7b0323593.jpg",
     "index.html": "/index.html",
     "main.41ed2791.css.map": "/static/css/main.41ed2791.css.map",
-    "main.93906aba.js.map": "/static/js/main.93906aba.js.map",
+    "main.d4a994f8.js.map": "/static/js/main.d4a994f8.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.41ed2791.css",
-    "static/js/main.93906aba.js"
+    "static/js/main.d4a994f8.js"
   ]
 }
