@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a60e395.css",
-    "main.js": "/static/js/main.11f44af3.js",
+    "main.js": "/static/js/main.eda4a9fb.js",
     "static/js/787.1f11dfe9.chunk.js": "/static/js/787.1f11dfe9.chunk.js",
     "static/media/Tata_Cliq.mp4": "/static/media/Tata_Cliq.f52a59b78c8067bb1ae1.mp4",
     "static/media/Mentimeter.mp4": "/static/media/Mentimeter.5ed8ff905a9c1bb7d617.mp4",
@@ -10,18 +10,18 @@
     "static/media/Communication.mp4": "/static/media/Communication.3c26df24b0b0c480c512.mp4",
     "static/media/Data_Structures.mp4": "/static/media/Data_Structures.bd82ce66105263f245b5.mp4",
     "static/media/FrontEnd_Development.mp4": "/static/media/FrontEnd_Development.4a9549f2da93f768d69d.mp4",
-    "static/media/Suman_Khan_Resume.pdf": "/static/media/Suman_Khan_Resume.e81d3153eae312ca9f65.pdf",
+    "static/media/Suman_Khan_Resume.pdf": "/static/media/Suman_Khan_Resume.ed8315c13f1613af0669.pdf",
     "static/media/me.png": "/static/media/me.0113f9577f9e586cb06e.png",
     "static/media/logo.png": "/static/media/logo.304a6a4514c8720c72c6.png",
     "static/media/illustration_email_3.svg": "/static/media/illustration_email_3.316c1edf2a7c608c47e8d6271cb16e43.svg",
     "static/media/illustration-email-3.svg": "/static/media/illustration-email-3.662053e6b49c6a994d007e90cc732e2a.svg",
     "index.html": "/index.html",
     "main.0a60e395.css.map": "/static/css/main.0a60e395.css.map",
-    "main.11f44af3.js.map": "/static/js/main.11f44af3.js.map",
+    "main.eda4a9fb.js.map": "/static/js/main.eda4a9fb.js.map",
     "787.1f11dfe9.chunk.js.map": "/static/js/787.1f11dfe9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a60e395.css",
-    "static/js/main.11f44af3.js"
+    "static/js/main.eda4a9fb.js"
   ]
 }
